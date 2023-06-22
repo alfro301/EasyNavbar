@@ -1,0 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');                                                
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+                                                
+}
+
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: #000;
+
+}
+
+.navbarul{
+    list-style: none;
+    color: rgb(129, 129, 129);
+    display: flex;
+    padding: 25px;
+    position: absolute;
+    left: 65%;
+}
+
+.li1{
+    cursor: pointer;   
+    margin-left: 30px;
+}
+.li1:hover{
+    
+  color: white;
+  transition: all 1s;
+}
